@@ -7,17 +7,22 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "nodemon mongo.js",
 		"cookie": "nodemon cookie.js",
-		"session": "nodemon sessions.js"
+		"session": "nodemon sessions.js",
+		"auth": "nodemon authentication.js",
+		"rest": "nodemon rest_api.js",
+		"error": "nodemon error-testing.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"type": "module",
 	"dependencies": {
+		"bcryptjs": "^3.0.3",
 		"cookie-parser": "^1.4.7",
 		"ejs": "^5.0.1",
 		"express": "^5.2.1",
 		"express-session": "^1.19.0",
+		"jsonwebtoken": "^9.0.3",
 		"mongoose": "^9.3.0",
 		"multer": "^2.1.1"
 	},
